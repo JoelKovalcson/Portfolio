@@ -2,6 +2,7 @@
     --background-color: #363636;
     --highlight-color: #d8833e;
     --accent-color: #803202c5;
+    --highlight-line-border: 3px solid var(--highlight-color);
 }
 
 * {
@@ -11,7 +12,7 @@
 }
 
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #dddddd;
 }
 
@@ -59,13 +60,13 @@ header nav ul li a {
     padding: 0px 5px;
     font-weight: lighter;
     font-size: 1.55vw;
-    border-bottom: 3px solid var(--highlight-color);
+    border-bottom: var(--highlight-line-border);
     transition: 0.2;
 }
 
 header nav ul li a:hover {
     margin: 10px;
-    border: 3px solid var(--highlight-color);
+    border: var(--highlight-line-border);
 }
 
 /* Banner Styling */
@@ -193,6 +194,7 @@ header nav ul li a:hover {
 
 /* Smaller Desktops */
 @media screen and (max-width: 980px) {
+
     /* Header */
     header nav ul li a {
         font-size: 2vw;
@@ -206,26 +208,31 @@ header nav ul li a:hover {
 
 /* Tablets and Phones */
 @media screen and (max-width: 800px) {
+
     /* Header */
     header {
         justify-content: center;
         position: relative;
         padding-bottom: 0;
     }
+
     header h1 {
         width: 100%;
         text-align: center;
         padding: 0;
         margin: 0;
     }
+
     header nav {
         width: 100%;
         justify-content: center;
         margin: 10px 0px;
     }
+
     header nav ul li {
         padding: 0px 10px;
     }
+
     header nav ul li a {
         font-size: 2.5vw;
     }
@@ -234,6 +241,7 @@ header nav ul li a:hover {
     .banner {
         height: 180px;
     }
+
     .banner h1 {
         right: 20px;
     }
@@ -243,6 +251,7 @@ header nav ul li a:hover {
         flex-direction: column;
         margin: 0;
     }
+
     .section-title {
         margin: 10px;
         flex: initial;
@@ -250,9 +259,11 @@ header nav ul li a:hover {
         border-right: initial;
         border-bottom: 3px solid var(--accent-color);
     }
+
     .section-title br {
         display: none;
     }
+
     .section-body {
         margin-right: 0px;
         margin-left: 0px;
@@ -267,6 +278,7 @@ header nav ul li a:hover {
         min-width: 200px;
         margin-bottom: 10px;
     }
+
     .about-me p {
         margin: 0;
         padding: 0;
@@ -276,6 +288,7 @@ header nav ul li a:hover {
     .work-panel div {
         bottom: 10px;
     }
+
     .work-panel div h2 {
         font-size: 3vw;
     }
@@ -284,6 +297,7 @@ header nav ul li a:hover {
     .contact-me {
         margin-bottom: 30px;
     }
+
     .contact-me ul li a {
         font-size: 2.5vw;
     }
