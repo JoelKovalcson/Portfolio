@@ -64,7 +64,7 @@ header nav ul li a {
     background-image: url('../images/banner-background.jpg');
     height: 230px;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     position: relative;
 }
 
@@ -88,23 +88,28 @@ header nav ul li a {
 
 .section-title {
     color: var(--accent-color);
-    font-size: 2.5vw;
+    font-size: 36px;
     text-align: right;
-    width: 15%;
-    margin: auto 10px auto 20px;
+    flex: 0 0 200px;
+    margin: 0 10px 0 20px;
     border-right: 3px solid var(--accent-color);
-    padding: 10px;
+    padding: 0 10px;
 }
 
 .section-body {
-    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 }
 
 /* About Me Styling */
 
+.about-me p {
+    color: var(--background-color);
+    font-weight: 500;
+    font-size: 16px;
+}
 
 /* Work Styling */
 
