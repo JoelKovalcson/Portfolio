@@ -1,7 +1,7 @@
 :root {
     --background-color: #363636;
-    --highlight-color: #a0a0a0;
-    --accent-color: #d37533;
+    --highlight-color: #d8833e;
+    --accent-color: #c0c0c0;
 }
 
 * {
@@ -13,6 +13,8 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
 }
+
+/* Header Styling */
 
 header {
     display: flex;
@@ -44,7 +46,6 @@ header nav ul {
     margin: 0px 50px;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
     list-style: none;
 }
 
@@ -54,4 +55,24 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.85vw;
     border-bottom: 3px solid var(--highlight-color);
+}
+
+/* Banner Styling */
+
+.banner {
+    background-image: url('../images/banner-background.jpg');
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.banner h1 {
+    color: var(--background-color);
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    bottom: 15px;
+    padding: 5px;
+    background-color: var(--highlight-color);
 }
