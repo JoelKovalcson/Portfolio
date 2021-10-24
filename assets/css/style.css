@@ -101,6 +101,7 @@ header nav ul li a {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    margin: 10px 80px 10px 30px;
 }
 
 /* About Me Styling */
@@ -113,6 +114,36 @@ header nav ul li a {
 
 /* Work Styling */
 
+.work-panel {
+    padding: 5px;
+    width: 48%;
+    position: relative;
+    background-color: var(--highlight-color);
+    margin: 1%;
+}
+
+.primary-panel {
+    width: 100%;
+}
+
+.work img {
+    width: 100%;
+    height: 100%;
+    opacity: 60%;
+    transition: 0.2s;
+}
+
+.work img:hover {
+    opacity: 100%;
+}
+
+.work-panel div {
+    position: absolute;
+    color: var(--background-color);
+    bottom: 25px;
+    background-color: var(--highlight-color);
+    padding: 5px;
+}
 
 /* Contact Me Styling */
 
