@@ -1,3 +1,4 @@
+/*
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +11,309 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+*/
+:root {
+	--background-color: #363636;
+	--highlight-color: #d8833e;
+	--accent-color: #803202c5;
+	--highlight-line-border: 3px solid var(--highlight-color);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #dddddd;
+}
+
+/* Header Styling */
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: var(--background-color);
+}
+
+header h1 {
+	margin: 8px 0px 12px 0px;
+	padding: 7px 7px 7px 40px;
+	color: var(--background-color);
+	background-color: var(--highlight-color);
+	font-weight: bold;
+}
+
+header img {
+	max-height: 75px;
+}
+
+header a {
+	text-decoration: none;
+	color: var(--highlight-color)
+}
+
+header nav {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+header nav ul {
+	margin: 0px 50px;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+header nav ul li a {
+	margin: 13px 13px 10px 13px;
+	padding: 0px 5px;
+	font-weight: lighter;
+	font-size: 1.55vw;
+	border-bottom: var(--highlight-line-border);
+	transition: 0.2;
+}
+
+header nav ul li a:hover {
+	margin: 10px;
+	border: var(--highlight-line-border);
+}
+
+/* Banner Styling */
+
+.banner {
+	/*background-image: url('../images/banner-background.jpg');*/
+	height: 230px;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.banner h1 {
+	color: var(--background-color);
+	position: absolute;
+	bottom: 0px;
+	right: 50px;
+	bottom: 15px;
+	padding: 5px;
+	background-color: var(--highlight-color);
+}
+
+/* Section Styling */
+
+.section-group {
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 20px 0px;
+}
+
+.section-title {
+	color: var(--accent-color);
+	font-size: 36px;
+	text-align: right;
+	flex: 0 0 200px;
+	margin: 0 10px 0 20px;
+	border-right: 3px solid var(--accent-color);
+	padding: 0 10px;
+}
+
+.section-body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	margin: 10px 80px 10px 30px;
+}
+
+/* About Me Styling */
+
+.about-me .section-body {
+	display: initial;
+}
+
+.about-me img {
+	float: left;
+	min-width: 150px;
+	width: 20%;
+	max-width: 300px;
+	padding: 5px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.about-me p {
+	padding: 5px;
+	color: var(--background-color);
+	font-weight: 500;
+	font-size: 16px;
+}
+
+/* Work Styling */
+
+.work-panel {
+	padding: 5px;
+	width: 48%;
+	position: relative;
+	background-color: var(--highlight-color);
+	margin: 1%;
+}
+
+.primary-panel {
+	width: 100%;
+}
+
+.work img {
+	width: 100%;
+	height: 100%;
+	opacity: 60%;
+	transition: 0.2s;
+}
+
+.work img:hover {
+	opacity: 100%;
+}
+
+.work-panel div {
+	position: absolute;
+	color: var(--background-color);
+	bottom: 25px;
+	background-color: var(--highlight-color);
+	padding: 5px;
+}
+
+/* Contact Me Styling */
+
+.contact-me ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	list-style: none;
+	width: 100%;
+}
+
+.contact-me ul li a {
+	text-decoration: none;
+	color: var(--background-color);
+	font-weight: bold;
+	font-size: 2vw;
+}
+
+/*** Media Queries ***/
+
+
+/* Smaller Desktops */
+@media screen and (max-width: 980px) {
+
+	/* Header */
+	header nav ul li a {
+			font-size: 2vw;
+	}
+
+	/* About Me */
+	.about-me img {
+			width: 25%;
+	}
+}
+
+/* Tablets and Phones */
+@media screen and (max-width: 800px) {
+
+	/* Header */
+	header {
+			justify-content: center;
+			position: relative;
+			padding-bottom: 0;
+	}
+
+	header h1 {
+			width: 100%;
+			text-align: center;
+			padding: 0;
+			margin: 0;
+	}
+
+	header nav {
+			width: 100%;
+			justify-content: center;
+			margin: 10px 0px;
+	}
+
+	header nav ul li {
+			padding: 0px 10px;
+	}
+
+	header nav ul li a {
+			font-size: 2.5vw;
+	}
+
+	/* Banner */
+	.banner {
+			height: 180px;
+	}
+
+	.banner h1 {
+			right: 20px;
+	}
+
+	/* Sections */
+	.section-group {
+			flex-direction: column;
+			margin: 0;
+	}
+
+	.section-title {
+			margin: 10px;
+			flex: initial;
+			text-align: center;
+			border-right: initial;
+			border-bottom: 3px solid var(--accent-color);
+	}
+
+	.section-title br {
+			display: none;
+	}
+
+	.section-body {
+			margin-right: 0px;
+			margin-left: 0px;
+			margin-top: 0px;
+			padding-left: 10px;
+			padding-right: 10px;
+			width: 100%;
+	}
+
+	/* About Me */
+	.about-me img {
+			min-width: 200px;
+			margin-bottom: 10px;
+	}
+
+	.about-me p {
+			margin: 0;
+			padding: 0;
+	}
+
+	/* Work */
+	.work-panel div {
+			bottom: 10px;
+	}
+
+	.work-panel div h2 {
+			font-size: 3vw;
+	}
+
+	/* Contact Me */
+	.contact-me {
+			margin-bottom: 30px;
+	}
+
+	.contact-me ul li a {
+			font-size: 2.5vw;
+	}
 }
