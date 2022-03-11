@@ -9,7 +9,7 @@ const Header = () => {
 				<Navigation/>
 			</section>
 			<div
-				className="bg-banner h-20 bg-cover"
+				className="bg-banner h-40 bg-cover"
 			/>
 		</header>
 	);
