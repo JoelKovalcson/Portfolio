@@ -6,19 +6,19 @@ const Navigation = () => {
 		<nav className='grow pt-1'>
 			<ul className='text-center sm:flex sm:flex-nowrap text-xl justify-center sm:justify-end'>
 				<li className='mx-1 sm:mx-2'>
-					<Link to="/">About</Link>
+					<Link to="/Portfolio/">About</Link>
 				</li>
 				<span className='hidden sm:inline'>|</span>
 				<li className='mx-1 sm:mx-2'>
-					<Link to="/projects">Projects</Link>
+					<Link to="/Portfolio/projects">Projects</Link>
 				</li>
 				<span className='hidden sm:inline'>|</span>
 				<li className='mx-1 sm:mx-2'>
-					<Link to="/contact">Contact Me</Link>
+					<Link to="/Portfolio/contact">Contact Me</Link>
 				</li>
 				<span className='hidden sm:inline'>|</span>
 				<li className='mx-1 sm:mx-2'>
-					<Link to="/resume">Resume</Link>
+					<Link to="/Portfolio/resume">Resume</Link>
 				</li>
 			</ul>
 		</nav>
