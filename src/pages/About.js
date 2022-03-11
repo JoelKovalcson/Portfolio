@@ -3,9 +3,9 @@ import React from 'react';
 const About = () => {
 
 	return (
-		<main className='mx-8 sm:mx-20 my-10 flex flex-wrap lg:flex-nowrap justify-center'>
+		<main className='mx-3 sm:mx-15 my-5 flex flex-wrap lg:flex-nowrap justify-center p-5 border-4 rounded-lg border-slate-500'>
 			<img
-				className='mb-3 sm:mb-0 sm:mr-5 h-80'
+				className='mb-3 lg:mb-0 lg:mr-5 h-80'
 				src={require('../assets/me.png')}
 				alt="Joel Kovalcson's Headshot"
 			/>
