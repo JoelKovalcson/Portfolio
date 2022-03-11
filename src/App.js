@@ -11,10 +11,10 @@ function App() {
 		<Router>
 			<Header/>
 				<Switch>
-					<Route exact path="/" component={About}></Route>
-					<Route exact path="/projects" component={Projects}></Route>
-					<Route exact path="/contact" component={Contact}></Route>
-					<Route exact path="/resume" component={Resume}></Route>
+					<Route exact path="/Portfolio/" component={About}></Route>
+					<Route exact path="/Portfolio/projects" component={Projects}></Route>
+					<Route exact path="/Portfolio/contact" component={Contact}></Route>
+					<Route exact path="/Portfolio/resume" component={Resume}></Route>
 					{/* Catch any other routes and redirect back to about */}
 					<Route component={About}/>
 				</Switch>
