@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.827a30e8.css",
-    "main.js": "/Portfolio/static/js/main.35c24a5d.js",
+    "main.css": "/Portfolio/static/css/main.3a765236.css",
+    "main.js": "/Portfolio/static/js/main.950164ed.js",
     "static/media/banner-background.jpg": "/Portfolio/static/media/banner-background.77847e00ea6e2d012afb.jpg",
     "static/media/me.png": "/Portfolio/static/media/me.ce7971d84586d48974a6.png",
     "static/media/programmer-dashboard.png": "/Portfolio/static/media/programmer-dashboard.9953c9cbb3495bc6183b.png",
@@ -9,11 +9,11 @@
     "static/media/resume.pdf": "/Portfolio/static/media/resume.cbb5d01df535c1be1822.pdf",
     "static/media/linkedin-logo-dark.png": "/Portfolio/static/media/linkedin-logo-dark.7c190df4a3881dd54bfc.png",
     "index.html": "/Portfolio/index.html",
-    "main.827a30e8.css.map": "/Portfolio/static/css/main.827a30e8.css.map",
-    "main.35c24a5d.js.map": "/Portfolio/static/js/main.35c24a5d.js.map"
+    "main.3a765236.css.map": "/Portfolio/static/css/main.3a765236.css.map",
+    "main.950164ed.js.map": "/Portfolio/static/js/main.950164ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.827a30e8.css",
-    "static/js/main.35c24a5d.js"
+    "static/css/main.3a765236.css",
+    "static/js/main.950164ed.js"
   ]
 }
