@@ -10,4 +10,4 @@ This portfolio was built using `React.js` and `Tailwindcss`.
 
 ## Preview
 
-![Portfolio Preview Image](https://github.com/JoelKovalcson/Portfolio/blob/src/assets/images/readme-preview.png)
+![Portfolio Preview Image](https://github.com/JoelKovalcson/Portfolio/blob/main/src/assets/images/readme-preview.png)
