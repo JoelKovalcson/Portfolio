@@ -16,7 +16,7 @@ const Footer = () => {
 				<li className='mx-3'>
 					<a href="https://www.linkedin.com/in/joel-kovalcson-6670b5206/">
 						<img 
-							src={require('../../assets/linkedin-logo-dark.png')} 
+							src={require('../../assets/linkedin-logo-dark.png')}
 							alt="LinkedIn Logo"
 							className="h-10 opacity-100 hover:opacity-60"
 						/>
