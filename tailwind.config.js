@@ -5,7 +5,9 @@ module.exports = {
   theme: {
     extend: {
 			backgroundImage: {
-				'banner': "url('/src/assets/banner-background.jpg')"
+				'banner': "url('/src/assets/banner-background.jpg')",
+				'programmer-dashboard': "url('/src/assets/projects/programmer-dashboard.png')",
+				'chattleship': "url('/src/assets/projects/chattleship.png')"
 			},
 			colors: {
 				'offwhite': '#dddddd',
