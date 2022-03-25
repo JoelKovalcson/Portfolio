@@ -19,32 +19,11 @@ const Projects = () => {
 			description: 'SQL/Node/Express'
 		},
 		{
-			name: 'Coming soon...',
-			github: '',
-			image: 'bg-banner',
-			live: '',
-			description: 'Future Work'
-		},
-		{
-			name: 'Coming soon...',
-			github: '',
-			image: 'bg-banner',
-			live: '',
-			description: 'Future Work'
-		},
-		{
-			name: 'Coming soon...',
-			github: '',
-			image: 'bg-banner',
-			live: '',
-			description: 'Future Work'
-		},
-		{
-			name: 'Coming soon...',
-			github: '',
-			image: 'bg-banner',
-			live: '',
-			description: 'Future Work'
+			name: 'Catro Gaming',
+			github: 'https://github.com/JoelKovalcson/Catro-Gaming',
+			image: 'bg-catro-gaming',
+			live: 'https://catro-gaming.herokuapp.com/',
+			description: 'MERN Stack/GraphQL'
 		}
 	]);
 
