@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3a765236.css",
-    "main.js": "/Portfolio/static/js/main.950164ed.js",
+    "main.css": "/Portfolio/static/css/main.ae0b4634.css",
+    "main.js": "/Portfolio/static/js/main.2acdb0b3.js",
     "static/media/banner-background.jpg": "/Portfolio/static/media/banner-background.77847e00ea6e2d012afb.jpg",
     "static/media/me.png": "/Portfolio/static/media/me.ce7971d84586d48974a6.png",
     "static/media/programmer-dashboard.png": "/Portfolio/static/media/programmer-dashboard.9953c9cbb3495bc6183b.png",
     "static/media/chattleship.png": "/Portfolio/static/media/chattleship.91f22e2ff2f7444dc465.png",
     "static/media/resume.pdf": "/Portfolio/static/media/resume.cbb5d01df535c1be1822.pdf",
+    "static/media/catro-gaming.png": "/Portfolio/static/media/catro-gaming.eff87f97768313ffedd2.png",
     "static/media/linkedin-logo-dark.png": "/Portfolio/static/media/linkedin-logo-dark.7c190df4a3881dd54bfc.png",
     "index.html": "/Portfolio/index.html",
-    "main.3a765236.css.map": "/Portfolio/static/css/main.3a765236.css.map",
-    "main.950164ed.js.map": "/Portfolio/static/js/main.950164ed.js.map"
+    "main.ae0b4634.css.map": "/Portfolio/static/css/main.ae0b4634.css.map",
+    "main.2acdb0b3.js.map": "/Portfolio/static/js/main.2acdb0b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a765236.css",
-    "static/js/main.950164ed.js"
+    "static/css/main.ae0b4634.css",
+    "static/js/main.2acdb0b3.js"
   ]
 }
